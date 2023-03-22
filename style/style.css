@@ -40,7 +40,10 @@ header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding: 40px 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 header > h1 {
@@ -65,8 +68,11 @@ header > p {
 
 nav {
     background-color: var(--cor3);
-    padding: 10px;
-    box-shadow: -4px -2px 7px rgba(0, 0, 0, 0.445)
+    padding: 10px 20px;
+    box-shadow: -4px -2px 7px rgba(0, 0, 0, 0.445);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 nav > a {
